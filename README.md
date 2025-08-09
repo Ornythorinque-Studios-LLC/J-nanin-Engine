@@ -36,6 +36,7 @@ Simple Pathfinding and decision making for enemies and player units.
 Simple scripting for basic cutscenes.  
 Up to 10 units on screen at once.  
 Dialogue for all characters.  
+Achievement system.  
 (Maybe) SoundBlaster support for audio.  
 (Maybe) Windows 3.1 / 95 support using Win16/32 API.   
 
