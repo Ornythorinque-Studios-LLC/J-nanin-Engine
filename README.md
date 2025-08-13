@@ -7,7 +7,7 @@ A RTS Game engine for MS-DOS.
 
 The J'nanin Engine is a custom, low level game engine, primarily written in C.  
 It is designed to be compatible with MS-DOS, and compiled using legacy software such as Borland Turbo C.  
-The goal of the J'nanin Engine is to be able to maintain a stable framerate (24 frames per second) on at least a 486/DX2@66 MHz.  
+The goal of the J'nanin Engine is to be able to maintain a stable framerate (24 frames per second) on at least a 486/DX2@50 MHz.  
 Another goal / challenge for myself is to not use more than 640k of RAM, which is the max amount that x86 Real Mode provides and can address without using DOS extenders to enter Protected Mode (32 bits) or using programs like HIMEM.SYS.  
 The name "J'nanin" comes from the hub world age of the same name in the game Myst III: Exile. (Cyan Worlds is not associated with this project, however, and Myst is intellectual property of Cyan Worlds, Inc.)
 
@@ -15,7 +15,7 @@ The name "J'nanin" comes from the hub world age of the same name in the game Mys
 
 As of now, there are no definitive requirements, but the probable requirements are as follows:
 
-At least a 486/DX2 running at 66 MHz.  
+At least a 486/DX2 running at 50 MHz.  
 640k of Conventional RAM.  
 Any VGA capable video card and monitor (no SVGA needed).  
 Any reasonably sized Winchester Disk (HDD).  
@@ -37,7 +37,19 @@ Simple scripting for basic cutscenes.
 Up to 10 units on screen at once.  
 Dialogue for all characters.  
 Achievement system.  
-(Maybe) SoundBlaster support for audio.  
-(Maybe) Windows 3.1 / 95 support using Win16/32 API.   
+AdLib support for audio.  
 
-Most of these do seem like basic things, but in practice, the vast majority of these features are much more complex than most people would think (due to using low-level C in ring 0, which contains minimal abstraction and built-in driver support).
+# Are there any other platforms?
+
+At the moment, our only current target is DOS, but we do want to write it in a way where it is semi-abstracted for maximum platform portability.
+
+Some platforms I would LIKE to see it run on in the future:  
+- Windows 9x/NT  
+- Mac OS 7 (68040/LC040)  
+- Mac OS 9 (PPC, with Carbon support for OS X all the way through 10.14 \[recompilation on intel\])  
+- PlayStation 4/5  
+- Nintendo Switch (and switch 2)  
+- Xbox One / Series  
+- macOS (all modern versions)  
+- Linux  
+- Windows 10/11  
