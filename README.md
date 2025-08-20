@@ -1,7 +1,7 @@
 # J'nanin Engine
 A RTS Game engine for MS-DOS.
 
-(as of now development has not started, be patient. this repo currently contains information and plans for the engine)
+*(as of now development has started, but aren't done. Please be patient. this repo currently contains information and plans for the engine)*
 
 # What is the J'nanin Engine?
 
