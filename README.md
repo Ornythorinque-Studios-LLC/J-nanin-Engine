@@ -1,5 +1,5 @@
 # J'nanin Engine
-<img src="logo/J'nanin_Banner_Transparent.png" alt="J'nanin logo" width="80%" style="image-rendering: pixelated;"/> <br>
+<img src="logo/J'nanin_HiRes.png" alt="J'nanin logo" width="80%" style="image-rendering: pixelated;"/> <br>
 A RTS Game engine for MS-DOS.
 
 *(as of now development has started, but aren't done. Please be patient. this repo currently contains information and plans for the engine)*
