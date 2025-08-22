@@ -9,8 +9,8 @@ A RTS Game engine for MS-DOS.
 The J'nanin Engine is a custom, low level game engine, primarily written in C.  
 It is designed to be compatible with MS-DOS, and compiled using legacy software such as Borland Turbo C.  
 The goal of the J'nanin Engine is to be able to maintain a stable framerate (24 frames per second) on at least a 486/DX2@50 MHz.  
-Another goal / challenge for myself is to not use more than 640k of RAM, which is the max amount that x86 Real Mode provides and can address without using DOS extenders to enter Protected Mode (32 bits) or using programs like HIMEM.SYS.  
-The name "J'nanin" comes from the hub world age of the same name in the game Myst III: Exile. (Cyan Worlds is not associated with this project, however, and Myst is intellectual property of Cyan Worlds, Inc.)
+Another goal / challenge for us is to not use more than 640k of RAM, which is the max amount that x86 Real Mode provides and can address without using DOS extenders to enter Protected Mode (32 bits) or using programs like HIMEM.SYS.  
+The name "J'nanin" (pronounced here as "JUH-nean") comes from the hub world age of the same name in the game Myst III: Exile. (Cyan Worlds is not associated with this project, however, and Myst is intellectual property of Cyan Worlds, Inc.)
 
 # What would the requirements be?
 
@@ -44,7 +44,7 @@ AdLib support for audio.
 
 At the moment, our only current target is DOS, but we do want to write it in a way where it is semi-abstracted for maximum platform portability.
 
-Some platforms I would LIKE to see it run on in the future:  
+Some platforms we would LIKE to see it run on in the future:  
 - Windows 9x/NT  
 - Mac OS 7 (68040/LC040)  
 - Mac OS 9 (PPC, with Carbon support for OS X all the way through 10.14 \[recompilation on intel\])  
